@@ -3,8 +3,6 @@
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)  
 [![Streamlit](https://img.shields.io/badge/Streamlit-Framework-red)](https://streamlit.io/)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
-[![GitHub stars](https://img.shields.io/github/stars/your-username/Movie-recommender-system?style=social)](https://github.com/your-username/Movie-recommender-system/stargazers)  
-[![GitHub forks](https://img.shields.io/github/forks/your-username/Movie-recommender-system?style=social)](https://github.com/your-username/Movie-recommender-system/network/members)  
 
 A sleek and interactive *Movie Recommender System* built with *Python* and *Streamlit*.  
 This app provides *personalized movie recommendations* based on content similarity, with an intuitive interface and visual movie posters.  
