@@ -89,3 +89,5 @@ Select your favorite movie 🎥
 Adjust the slider for number of recommendations 🎚
 
 Enjoy your personalized movie list! 🎉
+
+# Made with &hearts: By Shazim Javed
