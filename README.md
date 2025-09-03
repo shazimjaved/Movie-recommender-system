@@ -90,4 +90,4 @@ Adjust the slider for number of recommendations 🎚
 
 Enjoy your personalized movie list! 🎉'''
 
-Made with &hearts: By Shazim Javed
+Made with ❤️ By Shazim Javed
