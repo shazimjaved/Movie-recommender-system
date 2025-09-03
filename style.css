@@ -1,0 +1,46 @@
+/* Hide Streamlit's default menu and footer */
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+
+/* Style the main app container for centered layout */
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* --- MOVIE CARD STYLES --- */
+
+/* This targets the container of each column (our card) */
+[data-testid="stHorizontalBlock"] > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0.5rem; /* Adds rounded corners */
+    /* This is the magic for the smooth animation */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+/* This is the hover effect */
+[data-testid="stHorizontalBlock"] > div:hover {
+    transform: scale(1.05); /* Enlarge the card */
+    box-shadow: 0 8px 25px rgba(0,0,0,0.7); /* Add a pronounced shadow */
+    cursor: pointer;
+}
+
+/* Style for the movie titles under the posters */
+.stCaption {
+    font-weight: bold;
+    font-size: 0.9rem;
+    white-space: pre-wrap;
+    /* Prevents title from shifting on hover */
+    height: 3em;
+}
+
+/* Ensures the image inside the card is responsive */
+[data-testid="stHorizontalBlock"] img {
+    border-radius: 0.5rem;
+}
