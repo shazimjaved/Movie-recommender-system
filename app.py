@@ -2,6 +2,7 @@ import streamlit as st
 import pickle
 import requests
 import pandas as pd
+import joblib
 
 # --- PAGE CONFIGURATION ---
 st.set_page_config(
@@ -21,7 +22,7 @@ local_css("style.css")
 with st.spinner('Loading movie data...'):
     movies_dict = pickle.load(open('movie_list.pkl', 'rb'))
     movies = pd.DataFrame(movies_dict)
-    similarity = pickle.load(open('similarity.pkl', 'rb'))
+    similarity = joblib.load('similarity_compressed.pkl')
 
 # --- TMDB API CALL FUNCTION (details + poster) ---
 def fetch_movie_details(movie_id):
