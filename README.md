@@ -88,6 +88,6 @@ Select your favorite movie 🎥
 
 Adjust the slider for number of recommendations 🎚
 
-Enjoy your personalized movie list! 🎉'''
+Enjoy your personalized movie list! 🎉
 
 Made with ❤️ By Shazim Javed
