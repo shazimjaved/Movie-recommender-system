@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
 
 A sleek and interactive *Movie Recommender System* built with *Python* and *Streamlit*.  
-This app provides *personalized movie recommendations* based on content similarity, with an intuitive interface and visual movie posters.  
+This app provides *personalized movie recommendations* based on content similarity, with an intuitive interface and visual movie posters
 
 ---
 ## 📸 Screenshots
